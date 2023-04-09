@@ -1,0 +1,44 @@
+﻿  main.cpp
+D:\learnraytracing\Project1\Project1\ray.h(8,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\learnraytracing\Project1\Project1\ray.h(8,19): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+D:\learnraytracing\Project1\Project1\ray.h(10,9): error C3646: “origin”: 未知重写说明符
+D:\learnraytracing\Project1\Project1\ray.h(10,15): error C2059: 语法错误:“(”
+D:\learnraytracing\Project1\Project1\ray.h(10,23): error C2334: “{”的前面有意外标记；跳过明显的函数体
+D:\learnraytracing\Project1\Project1\ray.h(11,7): error C3646: “direction”: 未知重写说明符
+D:\learnraytracing\Project1\Project1\ray.h(11,16): error C2059: 语法错误:“(”
+D:\learnraytracing\Project1\Project1\ray.h(11,24): error C2334: “{”的前面有意外标记；跳过明显的函数体
+D:\learnraytracing\Project1\Project1\ray.h(12,9): error C3646: “at”: 未知重写说明符
+D:\learnraytracing\Project1\Project1\ray.h(12,11): error C2059: 语法错误:“(”
+D:\learnraytracing\Project1\Project1\ray.h(12,27): error C2334: “{”的前面有意外标记；跳过明显的函数体
+D:\learnraytracing\Project1\Project1\ray.h(16,9): error C3646: “orig”: 未知重写说明符
+D:\learnraytracing\Project1\Project1\ray.h(16,13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\learnraytracing\Project1\Project1\ray.h(17,7): error C3646: “dir”: 未知重写说明符
+D:\learnraytracing\Project1\Project1\ray.h(17,10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\learnraytracing\Project1\Project1\ray.h(8,55): error C2065: “origin”: 未声明的标识符
+D:\learnraytracing\Project1\Project1\ray.h(8,67): error C2065: “direction”: 未声明的标识符
+D:\learnraytracing\Project1\Project1\ray.h(8,50): error C2614: “ray”: 非法的成员初始化:“orig”不是基或成员
+D:\learnraytracing\Project1\Project1\ray.h(8,63): error C2614: “ray”: 非法的成员初始化:“dir”不是基或成员
+D:\learnraytracing\Project1\Project1\ray.h(9,27): error C2039: "orig": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\ray.h(9,34): error C2039: "dir": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\hittable.h(17,21): error C2039: "dir": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\sphere.h(16,19): error C2039: "orig": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\sphere.h(17,19): error C2039: "dir": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\sphere.h(17,26): error C2039: "dir": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\sphere.h(17,29): error C2660: “dot”: 函数不接受 1 个参数
+D:\learnraytracing\Project1\Project1\vec3.h(69,15): message : 参见“dot”的声明
+D:\learnraytracing\Project1\Project1\sphere.h(18,23): error C2039: "dir": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\sphere.h(33,19): error C2039: "at": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
+D:\learnraytracing\Project1\Project1\camera.h(17,1): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“ray”
+D:\learnraytracing\Project1\Project1\camera.h(17,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+D:\learnraytracing\Project1\Project1\main.cpp(16,62): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“ray”
+D:\learnraytracing\Project1\Project1\main.cpp(16,62): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+D:\learnraytracing\Project1\Project1\main.cpp(18,38): error C2039: "dir": 不是 "ray" 的成员
+D:\learnraytracing\Project1\Project1\ray.h(5): message : 参见“ray”的声明
